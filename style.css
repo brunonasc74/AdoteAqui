@@ -8,4 +8,39 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+    'nav'
+    'header'
+    'content'
+    'footer'
+    ;
+
+    grid-template-rows: 80px 1fr 2fr 30px;
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}
+
+nav,
+header,
+main,
+footer {
+    background-color: lightblue;
+    border: thin solid blue;
 }
