@@ -11,7 +11,7 @@ body {
     height: 100vh;
 
     display: grid;
-    grid-template-rows: 70px 1fr 2fr auto;
+    grid-template-rows: 70px calc(100vmin - 70px) 1fr auto;
 }
 
 .container {
@@ -53,8 +53,19 @@ nav a:hover {
 }
 
 header {
-    background-color: #f7515e;
     color: #fff;
+    background-color: #f7515e;
+    background-image: url(images/image-from-rawpixel-id-3370591-original.jpg);
+    background-size:cover;
+}
+
+header .text {
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 6rem;
+    margin-bottom: 100px;
 }
 
 main {
