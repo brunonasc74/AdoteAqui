@@ -9,6 +9,7 @@ body {
     font-size: 18px;
     line-height: 2;
     height: 100vh;
+    overflow-x: hidden;
 
     display: grid;
     grid-template-rows: 70px calc(100vmin - 70px) 1fr auto;
@@ -22,6 +23,7 @@ body {
 nav {
     background-color: #f1808a;
     color: #fff;
+    height: 70px; 
 }
 
 nav .container {
@@ -52,25 +54,25 @@ nav a:hover {
     color: #5eb1ff;
 }
 
-.main-header {
+.header-main {
     color: #fff;
     background-color: #f7515e;
     background-image: url(images/image-from-rawpixel-id-3370591-original.jpg);
     background-size: cover;
 }
 
-.main-header .text {
+.header-main .text {
     margin: 50px 0;
 }
 
-.main-header h1 {
+.header-main h1 {
     font-size: 6rem;
-    margin-bottom: 100px;
+    margin-bottom: 7%;
     line-height: 1;
 }
 
-.main-header p {
-    width:50%;
+.header-main p {
+    width:55%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding:10px 20px;
@@ -83,8 +85,10 @@ main {
 
 main h2 {
     font-size: 3rem;
+    margin-top: 20px;
     margin-bottom: 50px;
     text-align: center;
+    line-height: 1.1;
 }
 
 main .container {
