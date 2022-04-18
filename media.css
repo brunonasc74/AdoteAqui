@@ -59,7 +59,7 @@
         font-size: 4rem;
     }
     .header-main p {
-        width:70%;
+        width:80%;
     }
 
     nav .container {
@@ -70,11 +70,9 @@
     nav a {
         font-size:1.5rem;
     }
-
     nav .logo {
         display:none;
     }
-    
     main .container {
         width: 100%;
         grid-template-columns: 1fr;
