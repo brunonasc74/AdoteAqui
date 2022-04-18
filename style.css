@@ -32,9 +32,16 @@ nav .container {
     height: 100%;
 }
 
-nav .logo {
+.logo a {
     font-size: 2.5rem;
     font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo span {
+    color:#ff1f50;
+    text-decoration: none;
 }
 
 nav ul {
@@ -42,14 +49,14 @@ nav ul {
     list-style: none;
 }
 
-nav a {
+nav li a {
     text-decoration: none;
     font-weight: bold;
     margin-left: 20px;
     color: inherit;
 }
 
-nav a:hover {
+nav li a:hover {
     color: #5eb1ff;
 }
 
@@ -219,9 +226,7 @@ footer {
 
 .pre-footer {
     font-size: 20px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .outer-footer h3 {

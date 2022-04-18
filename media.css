@@ -63,21 +63,19 @@
     }
 
     nav .container {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
     }
-    nav a {
-        font-size:1.5rem;
-    }
-    nav .logo {
+    nav .logo a {
         display:none;
     }
+    nav a {
+        font-size:1.7rem;
+    }
+
     main .container {
         width: 100%;
         grid-template-columns: 1fr;
     }
-
     .container .card:nth-of-type(1) {
         grid-column: 1;
         grid-row: 1;
