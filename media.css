@@ -55,21 +55,22 @@
 }
 
 @media(max-width: 890px) {
+    nav .container {
+        flex-direction: column;
+    }
+    .logo a{
+        font-size: 1.7rem;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .header-main h1 {
         font-size: 4rem;
     }
     .header-main p {
         width:80%;
-    }
-
-    nav .container {
-        justify-content: center;
-    }
-    nav .logo a {
-        display:none;
-    }
-    nav a {
-        font-size:1.7rem;
     }
 
     main .container {

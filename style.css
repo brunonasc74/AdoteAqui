@@ -13,12 +13,13 @@ body {
     overflow-x: hidden; */
 
     display: grid;
-    grid-template-rows: 70px calc(100vmin - 70px) 1fr auto;
+    grid-template-rows: minmax(80px, auto) calc(100vmin - 80px) 1fr auto;
 }
 
 .container {
     width: 80%;
     margin: auto;
+    position: relative;
 }
 
 nav {
