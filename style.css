@@ -88,25 +88,38 @@ nav li a:hover {
 .header-main a button {
     padding: 15px 50px;
     font-size: 30px;
-    border: 3px solid transparent;
     border-radius: 5px;
-    background-color: #fff;
-    color: #202020;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.header-main a button:hover {
     color:#fff;
     background-color: transparent;
     border:3px solid #fff;
+    transition: 0.5s;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-main a button:hover {
+    color: #202020;
+    background-color: #fff;
+    border: 3px solid transparent;
     transition: 0.25s;
 }
 
 main {
     background-color: #f7515e;
+}
+
+main section {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #ff9a9a;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+main section h2 {
+    font-size: 36px;
+    margin-top: 0;
 }
 
 main h2 {
@@ -149,18 +162,6 @@ main .container {
 .container .card:nth-of-type(6) {
     grid-column: 3;
     grid-row: 3;
-}
-
-main section {
-    width: 50%;
-    margin: 50px auto;
-    background-color: #ff9a9a;
-    padding: 20px 40px;
-    border-radius: 30px;
-}
-
-main section h2 {
-    font-size: 36px;
 }
 
 main .card {
